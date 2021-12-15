@@ -1,0 +1,25 @@
+.search {
+    background: rgb(118, 189, 189);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.search span {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+#input-search {
+    margin: 2rem 2rem;
+    font-size: 40px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}

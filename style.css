@@ -1,0 +1,165 @@
+@font-face {
+  font-family: Metric;
+  src: url(font/MetricWeb-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Metric;
+  font-size: 14px;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header .container a {
+  text-decoration: none;
+  color: #c3c4c7;
+  font-size: 17px;
+}
+
+header .container a:hover {
+  color: white;
+}
+
+.menu-item {
+  padding: 1rem 1rem;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background-image: url("./images/herohob.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.hero {
+  background: black;
+  width: auto;
+  position: absolute;
+  top: 20%;
+  height: 60%;
+  width: 35%;
+}
+
+.hero span {
+  font-size: 48px;
+  color: #dec117;
+  display: block;
+  padding: 2rem;
+}
+
+.hero span:nth-child(2) {
+  font-size: 20px;
+  padding: 0 0 0 2rem;
+}
+
+.hero a {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.niteco-button {
+  font-size: 20px;
+  background: #dec117;
+  color: white;
+  padding: 0.5rem 2.5rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.main {
+  background: rgb(27, 24, 24);
+  width: 100%;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+
+.main .container .main-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  padding: 3rem;
+}
+
+.list-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 30%;
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item img {
+    width: 100%;
+    height: 300px;
+}
+
+.item .title {
+    font-size: 24px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.item .description {
+    font-size: 18px;
+    margin: 3rem 0;
+}
+
+.item .niteco-button {
+    font-size: 18px;
+    width: 100%;
+}
+
+.extra:nth-child(n) {
+    margin-top: 2rem;
+}
+
+.price {
+    margin-top: 1.5rem;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.view-and-price {
+    margin-top: auto;
+}
+
+.view-and-price a {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+.footer {
+    color: #c3c4c7;
+    text-align: center;
+    margin: 2rem;
+}
+

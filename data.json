@@ -1,0 +1,19 @@
+{
+    "people": [
+        {
+            "name": "Denu",
+            "contact": 123,
+            "constain": "all"
+        },
+        {
+            "name": "Octo",
+            "contact": 456,
+            "constain": "all"
+        },
+        {
+            "name": "Meta",
+            "contact": 789,
+            "constain": "all"
+        }
+    ]
+}
